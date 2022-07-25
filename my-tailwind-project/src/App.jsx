@@ -53,16 +53,20 @@ function App() {
                   Commodi exercitationem aliquid omnis facere consectetur odit
                   quibusdam inventore eos, magni nostrum.
                 </p>
-                <p className="mx-4 my-2 dark:text-gray-300">Population: {result.population}</p>
-                <p className="my-4 mx-4 dark:text-gray-300">Region: {result.region}</p>
+                <p className="mx-4 my-2 dark:text-gray-300">
+                  Population: {result.population}
+                </p>
+                <p className="my-4 mx-4 dark:text-gray-300">
+                  Region: {result.region}
+                </p>
                 <div className="flex justify-center ">
-                  {" "}
-                  <button className="bg-blue-700 mb-4 px-4 py-2 text-white  font-bold
+                  <button
+                    className="bg-blue-700 mb-4 px-4 py-2 text-white  font-bold
                   dark:bg-gradient-to-tl from-[#2b5876] to-[#4e4376] dark:text-gray-300
-                  ">
+                  "
+                  >
                     View More
                   </button>
-                  
                 </div>
               </div>
             </>
@@ -74,25 +78,3 @@ function App() {
 }
 
 export default App;
-
-         
-// .btn-grad {
-//   background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
-//   margin: 10px;
-//   padding: 15px 45px;
-//   text-align: center;
-//   text-transform: uppercase;
-//   transition: 0.5s;
-//   background-size: 200% auto;
-//   color: white;            
-//   box-shadow: 0 0 20px #eee;
-//   border-radius: 10px;
-//   display: block;
-// }
-
-// .btn-grad:hover {
-//   background-position: right center; /* change the direction of the change here */
-//   color: #fff;
-//   text-decoration: none;
-// }
-
