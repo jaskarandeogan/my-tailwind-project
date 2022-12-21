@@ -33,7 +33,7 @@ const Modals = ({children, open, setOpen, index}) => {
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm md:max-w-4xl m sm:p-6 md:p-0">
                 <span className="absolute right-0 p-3">
-                <XMarkIcon className=" h-6 w-6 text-gray-400 cursor-pointer" onClick={() => setOpen(false)} />
+                <XMarkIcon className=" h-6 w-6 dark:bg-[#2B3844] text-gray-400 cursor-pointer" onClick={() => setOpen(false)} />
                 </span>
                 {children}
               </Dialog.Panel>
