@@ -26,7 +26,7 @@ const FlagsDashboard = () => {
       </div>
       <div className=" flex flex-wrap justify-between  gap-y-8 ">
         {Data.map((item, index) => {
-          return <FlagCard result={item} index={index} />;
+          return <FlagCard result={item}  key={index} />;
         })}
       </div>
     </div>
