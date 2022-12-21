@@ -31,7 +31,7 @@ const FlagModal = ({ index, result }) => {
             Capital: <span className="font-normal">{result.capital}</span>
           </p>
         </div>
-        <div className="flex flex gap-2 items-center ">
+        <div className=" flex gap-2 items-center ">
           <span className="font-semibold whitespace-nowrap">Border Countries: </span>
           <span className="flex gap-2 items-center">
             {result.borders.map((border, index) => (
