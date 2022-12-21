@@ -14,7 +14,7 @@ const FlagCard = ({ result, index }) => {
       {/* write html here for cards */}
       <div
         key={index}
-        className="w-[16.5rem] dark:bg-gradient-to-tl from-[#28313B] to-[#485461] transition group bg-white dark:bg-indigo-200 hover:scale-100 hover:drop-shadow-2xl border-2 border-grey-200 dark:border-3 dark:border-orange-700 hover:border-red-200 hover:cursor-pointer "
+        className="w-[16.5rem] dark:bg-[#2B3844] transition group bg-white  hover:scale-100 hover:drop-shadow-2xl rounded-sm  hover:cursor-pointer transition duration-300 ease-in-out"
       >
         <div>
           <img
@@ -23,7 +23,7 @@ const FlagCard = ({ result, index }) => {
             src={result.flags.png}
           />
         </div>
-        <h4 className="text-blue-800 dark:text-orange-400 m-4 font-bold sm:text-[.75rem]] md:text-[1rem] lg:text-[1.5rem]">
+        <h4 className="text-blue-800 dark:text-white m-4 font-bold sm:text-[.75rem]] md:text-[1rem] lg:text-[1.5rem]">
           {result.name.common}
         </h4>
         <p className="mx-4 my-2 dark:text-gray-300">
@@ -41,7 +41,7 @@ const FlagCard = ({ result, index }) => {
           <button
             className="bg-blue-700 m-5 px-4 py-2 text-white  font-bold
                 dark:bg-gradient-to-tl from-[#2b5876] to-[#4e4376] dark:text-gray-300
-                hover:bg-blue-400 transition duration-300 ease-in-out rounded-sm"
+                hover:bg-blue-400 transition duration-300 ease-in-out rounded-sm hover:brightness-125"
             onClick={() => handleModal()}
           >
             View More
