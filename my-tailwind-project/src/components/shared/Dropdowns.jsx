@@ -30,7 +30,7 @@ const Dropdowns = () => {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="#1"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
@@ -43,7 +43,7 @@ const Dropdowns = () => {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="#2"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
@@ -56,7 +56,7 @@ const Dropdowns = () => {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="#3"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"

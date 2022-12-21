@@ -14,7 +14,7 @@ const FlagCard = ({ result, index }) => {
       {/* write html here for cards */}
       <div
         key={index}
-        className="w-[16.5rem] dark:bg-[#2B3844] transition group bg-white  hover:scale-100 hover:drop-shadow-2xl rounded-sm  hover:cursor-pointer transition duration-300 ease-in-out"
+        className="w-[16.5rem] dark:bg-[#2B3844]  group bg-white  hover:scale-100 hover:drop-shadow-2xl rounded-sm  hover:cursor-pointer transition duration-300 ease-in-out"
       >
         <div>
           <img
